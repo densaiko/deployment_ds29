@@ -131,7 +131,7 @@ def run_ml_app():
     # st.write(pred_prob)
 
     pred_prob_score = {'Promoted':round(pred_prob[0][1]*100,4),
-                       'Not Promoted':round(pred_prob[0][0]*1100,4)}
+                       'Not Promoted':round(pred_prob[0][0]*100,4)}
 
 
     if prediction == 1:
